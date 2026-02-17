@@ -11,13 +11,10 @@ void main(){
   for(int i=0;i<words.length;i++){
     if(shortest.length > words[i].length){
       shortest=words[i];
-
     }
     if(longest.length<words[i].length){
       longest=words[i];
     }
-
-
   }
   print( 'the longest word is $longest');
   print( 'the shortest word is $shortest');
